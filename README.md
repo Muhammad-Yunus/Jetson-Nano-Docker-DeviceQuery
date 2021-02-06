@@ -6,6 +6,7 @@ cd ~
 mkdir -p Github
 cd Github
 git clone https://github.com/Muhammad-Yunus/Jetson-Nano-Docker-DeviceQuery.git
+cd Jetson-Nano-Docker-DeviceQuery
 ```
 - Build image :
 ```
