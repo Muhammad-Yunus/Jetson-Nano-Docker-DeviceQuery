@@ -11,7 +11,7 @@ git clone https://github.com/Muhammad-Yunus/Jetson-Nano-Docker-DeviceQuery.git
 ```
 docker build --pull --rm -f "Github/Jetson-Nano-Docker-DeviceQuery/Dockerfile" -t jetson-devicequery:latest "Github/Jetson-Nano-Docker-DeviceQuery"
 ```
-- Run image using NVIDIA container runtime 
+- Run image using NVIDIA container runtime :
 ```
 sudo docker run --rm --net=host --runtime nvidia  jetson-devicequery:latest
 ```
