@@ -12,6 +12,10 @@ cd ~
 ```
 docker build --pull --rm -f "Github/Jetson-Nano-Docker-DeviceQuery/Dockerfile" -t jetson-devicequery:latest "Github/Jetson-Nano-Docker-DeviceQuery"
 ```
+- **Or**, Pull image from Docker Hub :
+```
+docker pull yunusdev/jetson-devicequery
+```
 - Run image using NVIDIA container runtime :
 ```
 sudo docker run --rm --net=host --runtime nvidia  jetson-devicequery:latest
